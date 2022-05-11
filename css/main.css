@@ -135,6 +135,16 @@ Primary use:
   }
 }
 
+.overlay {
+  background: linear-gradient(to top, #000, transparent 20%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;  
+  z-index: 1;
+}
+
 
 /*//////////////////////////////////////////////////////////////////
 [ Simple slide100 ]*/
@@ -146,7 +156,7 @@ Primary use:
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #000;
+  
 }
 
 .simpleslide100-item {
@@ -215,7 +225,7 @@ Primary use:
 .l1-txt4 {
   /*font-family: Playlist Script;*/
   font-family: 'Marcellus', serif;
-  font-size: 60px;
+  font-size: 1em;
   color: #fff;
   line-height: 1.1;
 }
@@ -374,12 +384,27 @@ Primary use:
 }
 
 /*---------------------------------------------*/
+.how-sociall {
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  border-radius: 50%;
+  
+}
+
+.how-sociall:hover {
+  background-color: #fff;
+  color: #555;
+}
+
 .how-social {
   color: #fff;
   font-size: 20px;
-  border: 1px solid rgba(255,255,255,0.1);
+  border: 2px solid #fff;
   background-color: transparent;
   border-radius: 50%;
+  margin-right: 10px;
 }
 
 .how-social:hover {
